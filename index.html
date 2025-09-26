@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolau - Mestre do Valorant</title>
+    <style>
+        /* Reset e estilos base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460); /* Gradiente inspirado em Valorant */
+            color: #fff;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #c084fc; /* Roxo Valorant */
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #fff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .bio {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+        }
+
+        .bio p {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .elos-section {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .elo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .elo-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #c084fc;
+        }
+
+        .elo-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(192, 132, 252, 0.5);
+        }
+
+        .elo-nome {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #c084fc;
+            margin-bottom: 10px;
+        }
+
+        .elo-descricao {
+            font-size: 1rem;
+            color: #ddd;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .elo-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nicolau - O Rei do Valorant</h1>
+        <p>Descubra mais sobre meu amigo gamer e os elos do jogo!</p>
+    </header>
+
+    <section class="bio">
+        <h2>Sobre o Nicolau</h2>
+        <p>Meu amigo Nicolau é um jogador dedicado e talentoso de Valorant. Ele passa horas aprimorando suas habilidades com agentes como Jett e Phoenix, focando em jogadas precisas e estratégias de equipe. Atualmente, Nicolau está no elo Diamante, provando seu domínio no competitivo. Se você é fã de FPS, Nicolau é inspiração pura – sempre subindo de rank e compartilhando dicas incríveis!</p>
+        <p>Valorant é o jogo perfeito para ele: táticas, mira afiada e muita adrenalina. Vamos torcer para ele chegar ao Radiant em breve!</p>
+    </section>
+
+    <section class="elos-section">
+        <h2>Os Elos do Valorant</h2>
+        <p style="text-align: center; margin-bottom: 20px;">No Valorant, os elos representam o nível de habilidade dos jogadores no modo competitivo. Eles vão do iniciante ao profissional, com base em pontos de Rank Rating (RR). Suba de elo vencendo partidas e jogando bem!</p>
+        
+        <div class="elo-grid">
+            <div class="elo-card">
+                <div class="elo-nome">Iron</div>
+                <div class="elo-descricao">Elo inicial para novatos. Foco em aprender os básicos do jogo.</div>
+            </div>
+            <div class="elo-card">
+                <div class="elo-nome">Bronze</div>
+                <div class="elo-descricao">Primeiros passos no competitivo. Melhore sua mira e comunicação.</div>
+            </div>
+            <div class="elo-card">
+                <div class="elo-nome">Silver</div>
+                <div class="elo-descricao">Nível intermediário. Estratégias simples começam a fazer diferença.</div>
+            </div>
+            <div class="elo-card">
+                <div class="elo-nome">Gold</div>
+                <div class="elo-descricao">Jogadores sólidos. Equilíbrio entre individual e time.</div>
+            </div>
+            <div class="elo-card">
+                <div class="elo-nome">Platinum</div>
+                <div class="elo-descricao">Avançado. Economia e utilitários são chave.</div>
+            </div>
+            <div class="elo-card">
+                <div class="elo-nome">Diamond</div>
+                <div class="elo-descricao">Elite. Nicolau brilha aqui! Precisão e adaptação total.</div>
+            </div>
+            <div class="elo-card">
+                <div class="elo-nome">Ascendant</div>
+                <div class="elo-descricao">Quase pro. Jogadas complexas e liderança.</div>
+            </div>
+            <div class="elo-card">
+                <div class="elo-nome">Immortal</div>
+                <div class="elo-descricao">Top tier. Poucos chegam – mira insana e macro perfeito.</div>
+            </div>
+            <div class="elo-card">
+                <div class="elo-nome">Radiant</div>
+                <div class="elo-descricao">O ápice! Melhores do mundo, como pros de esports.</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Feito com carinho para o Nicolau. © 2023 - Valorant Fan Page</p>
+    </footer>
+</body>
+</html>
